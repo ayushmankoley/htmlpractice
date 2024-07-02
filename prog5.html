@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>HTML FORMS</h2>
+    <form action="backend.php">
+        <div>
+            Name: <input type="text" name="myName">
+        </div>
+        <div>
+            Job: <input type="text" name="myJob">
+        </div>
+        <div>
+            email: <input type="email" name="myEmail">
+        </div>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <div>
+            Number: <input type="number" name="myBonus">
+        </div>
+        <div>
+            Goal Met? <input type="checkbox" name="myElligibility">
+        </div>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Other <input type="radio" name="myGender">
+        </div>
+        <div>
+            Enter your text: <textarea name="myText"></textarea>
+        </div>
+        <label for="car">Car Type</label>
+        <select name="myCar" id="car">
+            <option value="BMW">BMW M4</option>
+            <option value="SUP">SUPRA</option>
+        </select>
+        <div>
+            <input type="submit" value="Submit Now"> 
+            <input type="reset" value="Reset Now"> 
+        </div>
+    </form>
+</body>
+</html>
