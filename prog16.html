@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: "Noto Sans", sans-serif;
+        }
+        .container{
+            width: 900px;
+            border: 3px solid red;
+            margin: auto;
+        }
+        .item{
+            border: 2px solid black;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: white;
+        }
+        #fruit{
+            float: left;
+            width: 50%;
+        }
+        #dictionary{
+            float: left;
+            width: 50%;
+        }
+        #computer{
+            float: left;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, hic eveniet! Impedit consequuntur sint voluptate quasi ad rerum magni minima. Perferendis inventore dolores unde fugiat consequatur exercitationem eos laudantium dignissimos?</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computers</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, hic eveniet! Impedit consequuntur sint voluptate quasi ad rerum magni minima. Perferendis inventore dolores unde fugiat consequatur exercitationem eos laudantium dignissimos?</p>
+        </div>
+        <div id="dictionary" class="item">
+            <h3>Items</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, hic eveniet! Impedit consequuntur sint voluptate quasi ad rerum magni minima. Perferendis inventore dolores unde fugiat consequatur exercitationem eos laudantium dignissimos?</p>
+        </div>
+    </div>
+</body>
+</html>
