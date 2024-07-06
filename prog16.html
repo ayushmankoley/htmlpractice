@@ -16,6 +16,7 @@
         }
         .container{
             width: 900px;
+            background-color: rgb(197, 144, 19);
             border: 3px solid red;
             margin: auto;
         }
@@ -27,31 +28,47 @@
         }
         #fruit{
             float: left;
-            width: 50%;
-        }
-        #dictionary{
-            float: left;
-            width: 50%;
+            width: 49%;
         }
         #computer{
             float: left;
-            width: 50%;
+            width: 49%;
+        }
+        #dictionary{
+            /* float: right; */
+            clear: both;
+            width: 100%;
+        }
+        p,h3{
+            /* text-align: right;
+            text-align: left;
+            text-align: center; */
+            text-align: justify;
+        }
+        h1{
+            margin: 10px auto;
+            width: 490px;
         }
     </style>
 </head>
 <body>
     <div class="container">
+        <h1>WELCOME TO MY STORE</h1>
         <div id="fruit" class="item">
             <h3>Fruits</h3>
-            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, hic eveniet! Impedit consequuntur sint voluptate quasi ad rerum magni minima. Perferendis inventore dolores unde fugiat consequatur exercitationem eos laudantium dignissimos?</p>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, hic eveniet! Impedit consequuntur sint voluptate quasi ad rerum magni minima. Perferendis inventore dolores unde fugiat consequatur exercitationem eos laudantium dignissimos? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia dolore laborum rem, nihil provident excepturi, nemo facere ad accusantium in ab animi veritatis porro eum a doloribus suscipit aliquam tenetur quis alias?</p>
         </div>
         <div id="computer" class="item">
             <h3>Computers</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, hic eveniet! Impedit consequuntur sint voluptate quasi ad rerum magni minima. Perferendis inventore dolores unde fugiat consequatur exercitationem eos laudantium dignissimos?</p>
+            <p id="computerPara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, hic eveniet! Impedit consequuntur sint voluptate quasi ad rerum magni minima. Perferendis inventore dolores unde fugiat consequatur exercitationem eos laudantium dignissimos?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia dolore laborum rem, nihil provident excepturi, nemo facere ad accusantium</p>
         </div>
         <div id="dictionary" class="item">
             <h3>Items</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, hic eveniet! Impedit consequuntur sint voluptate quasi ad rerum magni minima. Perferendis inventore dolores unde fugiat consequatur exercitationem eos laudantium dignissimos?</p>
+            <p id="dicPara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, hic eveniet! Impedit consequuntur sint voluptate quasi ad rerum magni minima. Perferendis inventore dolores unde fugiat consequatur exercitationem eos laudantium dignissimos?</p>
+        </div>
+        <div id="technology" class="item">
+            <h3>Items</h3>
+            <p id="techPara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, hic eveniet! Impedit consequuntur sint voluptate quasi ad rerum magni minima. Perferendis inventore dolores unde fugiat consequatur exercitationem eos laudantium dignissimos?</p>
         </div>
     </div>
 </body>
